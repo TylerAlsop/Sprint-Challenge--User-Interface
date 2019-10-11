@@ -48,6 +48,11 @@ Two differences from both perspectives:
 
 3. What are the 4 areas of the box model?
 
+- Content
+- Padding
+- Border
+- Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
 5. Explain why git is valuable to a team of developers.
