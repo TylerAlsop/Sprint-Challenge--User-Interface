@@ -34,6 +34,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+You can name an element anything you like, but using semantic HTML is preferable. Semantic HTML is basically a set of preset element names which browsers can recognize. A browser's ability to recognize your HTML elements can help with search engine optimization, accessibility services, etc. Each element name also comes with specific functionalities as well which will help immensely when styling in CSS. Some elements don't really do anything other than separate elements from each other and help with organization, while others have a lot of functionality. They can automatically determine text size, display styling like block vs inline, make bullets appear on lists, and much much more.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 3. What are the 4 areas of the box model?
