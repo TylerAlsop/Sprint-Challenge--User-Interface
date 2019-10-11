@@ -38,6 +38,14 @@ You can name an element anything you like, but using semantic HTML is preferable
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+Two differences from both perspectives: 
+- display: inline 
+    - Item is embedded within the text/it stays on the same line.
+    - Only takes on the height and width of the line and/or text it is made from.
+- display: block
+    - Item is placed on a new line.
+    - Item can be given its own height and width.
+
 3. What are the 4 areas of the box model?
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
