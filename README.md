@@ -55,9 +55,11 @@ Two differences from both perspectives:
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-It works on the cross axis. Specifically the property "align-items: center" would move your item halfway between the cross axis start and the cross axis end; which could be up/down or left/right depending on your flex direction.
+It works on the cross axis. Specifically the property "align-items: center" would move your item halfway between the cross axis start and the cross axis end; which could be up/down or left/right depending on your flex-direction.
 
 5. Explain why git is valuable to a team of developers.
+
+git allows a team to all work on different aspects of the same project (or even the same aspect) without the master code being disrupted. This means that time isn't wasted worrying about their changes being updated in real time and interfering with someone else's work. Equally important is that it creates a repository of past edits. All this together means that it is possible to see who edited what when as well as revert back to past versions if need be.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
