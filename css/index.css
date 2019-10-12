@@ -283,3 +283,20 @@ footer nav a {
 .about-item {
     margin-bottom: 20px;
 }
+
+.about-middle-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.strategy-how-items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about-page-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
