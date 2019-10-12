@@ -53,12 +53,25 @@ table {
 
 html, body {
     height: 100%;
+    /* width: 1000px; */
     font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+
+#page-wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: baseline;
     padding: 30px;
 }
