@@ -289,12 +289,6 @@ footer nav a {
     flex-direction: column;
 }
 
-.strategy-how-items-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
 .about-page-item {
     display: flex;
     flex-direction: column;
@@ -302,7 +296,9 @@ footer nav a {
     margin-bottom: 20px;
     margin-top: 0px;
     border-bottom: 1px dashed black;
-    padding: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .learn-more-button {
@@ -310,4 +306,28 @@ footer nav a {
     border: 2px solid;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+.about-page-item-img {
+    padding: 20px 0px;
+}
+
+.strategy-how-items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.places-collaboration-items-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.about-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
