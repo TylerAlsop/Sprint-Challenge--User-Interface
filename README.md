@@ -34,13 +34,32 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+You can name an element anything you like, but using semantic HTML is preferable. Semantic HTML is basically a set of preset element names which browsers can recognize. A browser's ability to recognize your HTML elements can help with search engine optimization, accessibility services, etc. Each element name also comes with specific functionalities as well which will help immensely when styling in CSS. Some elements don't really do anything other than separate elements from each other and help with organization, while others have a lot of functionality. They can automatically determine text size, display styling like block vs inline, make bullets appear on lists, and much much more.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Two differences from both perspectives: 
+- display: inline 
+    - Item is embedded within the text/it stays on the same line.
+    - Only takes on the height and width of the line and/or text it is made from.
+- display: block
+    - Item is placed on a new line.
+    - Item can be given its own height and width.
 
 3. What are the 4 areas of the box model?
 
+- Content
+- Padding
+- Border
+- Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+It works on the cross axis. Specifically the property "align-items: center" would move your item halfway between the cross axis start and the cross axis end; which could be up/down or left/right depending on your flex-direction.
+
 5. Explain why git is valuable to a team of developers.
+
+git allows a team to all work on different aspects of the same project (or even the same aspect) without the master code being disrupted. This means that time isn't wasted worrying about their changes being updated in real time and interfering with someone else's work. Equally important is that it creates a repository of past edits. All this together means that it is possible to see who edited what when as well as revert back to past versions if need be.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
